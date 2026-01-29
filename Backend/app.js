@@ -8,7 +8,7 @@ dotenv.config();
 
 const app = express();
 
-const allowedOrigins = ["http://localhost:5173", "https://factory-manager-simulation.vercel.app"];
+const allowedOrigins = ["http://localhost:5173", "https://factory-management-simulation.vercel.app", "https://factory-manager-simulation-ksxhlb3up.vercel.app"];
 
 app.use(
   cors({
